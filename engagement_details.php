@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+CTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -153,7 +153,7 @@
                             </p>
                             <hr class="customline"><!--css modified horizontal line-->
                              
-                            <button type="button" class="btn btn-default btn-lg" onclick="window.location.href='booking.php'">Book Now <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                            <button type="button" class="btn btn-default btn-lg" onclick="window.location.href='booking_form.php'">Book Now <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
                         </div><!--subcontent div-->
                     </div><!--container div-->
                 </section>
@@ -165,3 +165,5 @@
         <?php require 'utils/footer.php'; ?><!--footer content. file found in utils folder-->
     </body>
 </html>
+
+
