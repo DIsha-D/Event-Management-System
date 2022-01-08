@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+CTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -35,8 +35,7 @@
                             location for your special day.
                             </p>
                             <hr class="customline"><!--css modified horizontal line-->
-                            <button type="button" class="btn btn-default btn-lg"><!--view event button (no function implemented)-->
-                            View Events  <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><!--arrow right glyphicon-->
+                            <button type="button" class="btn btn-default btn-lg" onclick="window.location.href='wedding_details.php'">View Details<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
                             </button>
                         </div><!--subcontent div-->
                     </div><!--container div-->
@@ -62,8 +61,7 @@
                             a perfectly planned, absolutely captivating event of baarse? We are here to help you with that.
                             </p>
                             <hr class="customline"><!--css modified horizontal line-->
-                            <button type="button" class="btn btn-default btn-lg"><!--view event button (no function implemented)-->
-                            View Events  <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><!--arrow right glyphicon-->
+                            <button type="button" class="btn btn-default btn-lg" onclick="window.location.href='naming_details.php'">View Details<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
                             </button>
                         </div><!--subcontent div-->
                     </div><!--container div-->
@@ -90,8 +88,7 @@
                             services.
                             </p>
                             <hr class="customline"><!--css modified horizontal line-->
-                            <button type="button" class="btn btn-default btn-lg"><!--view event button (no function implemented)-->
-                            View Events  <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><!--arrow right glyphicon-->
+                            <button type="button" class="btn btn-default btn-lg" onclick="window.location.href='engagement_details.php'">View Details<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
                             </button>
                         </div><!--subcontent div-->
                     </div><!--container div-->
@@ -117,8 +114,7 @@
                             filled service to make your birthday a memorable one.
                             </p>
                             <hr class="customline"><!--css modified horizontal line-->
-                            <button type="button" class="btn btn-default btn-lg"><!--view event button (no function implemented)-->
-                            View Events  <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><!--arrow right glyphicon-->
+                            <button type="button" class="btn btn-default btn-lg" onclick="window.location.href='birthday_details.php'">View Details<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
                             </button>
                         </div><!--subcontent div-->
                     </div><!--container div-->
@@ -145,8 +141,7 @@
                             location for your special day.
                             </p>
                             <hr class="customline"><!--css modified horizontal line-->
-                            <button type="button" class="btn btn-default btn-lg"><!--view event button (no function implemented)-->
-                            View Events  <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><!--arrow right glyphicon-->
+                            <button type="button" class="btn btn-default btn-lg" onclick="window.location.href='baby_shower_details.php'">View Details<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
                             </button>
                         </div><!--subcontent div-->
                     </div><!--container div-->
@@ -171,8 +166,7 @@
                             party wishes come true so you can kick back, drink up and enjoy your special day!
                             </p>
                             <hr class="customline"><!--css modified horizontal line-->
-                            <button type="button" class="btn btn-default btn-lg"><!--view event button (no function implemented)-->
-                            View Events  <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><!--arrow right glyphicon-->
+                            <button type="button" class="btn btn-default btn-lg" onclick="window.location.href='party_details.php'">View Details<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
                             </button>
                         </div><!--subcontent div-->
                     </div><!--container div-->
@@ -199,8 +193,7 @@
                             for all your event needs.
                             </p>
                             <hr class="customline"><!--css modified horizontal line-->
-                            <button type="button" class="btn btn-default btn-lg"><!--view event button (no function implemented)-->
-                            View Events  <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><!--arrow right glyphicon-->
+                            <button type="button" class="btn btn-default btn-lg" onclick="window.location.href='corporate_event_details.php'">View Details<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
                             </button> 
                         </div><!--subcontent div-->
                     </div><!--container div-->
@@ -211,3 +204,4 @@
         <?php require 'utils/footer.php'; ?><!--footer content. file found in utils folder-->
     </body>
 </html>
+
