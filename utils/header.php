@@ -83,7 +83,7 @@
         <div class = "container">
             <div class = "jumbotron"><!--jumbotron-->
                 <br><br><br><br><br><br><br><br><br>
-                <h1>Ven-You</h1><!--jumbotron heading-->
+                <h1>Ven-you</h1><!--jumbotron heading-->
                 <p><!--jumbotron content-->
                 Whether you're looking to book a cocktail party, post-work gathering, celebratory function, conference, business
                 meeting, wedding or private dining event, our dedicated Ven-You team can create a package that will meet
