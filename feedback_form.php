@@ -32,11 +32,9 @@ if (!isset($errors)) {
         <div class="container">
             <div class="row">
                 <div class="feedback-form">
-                    <div class="form-header">
-                    </div>
                     <form>
                     <div class="feedback">
-                    <h3 text-align = "center"><b><br><br><br><br><br><br>Dear Customer,</b><br></h3>
+                    <h3 text-align = "center"><b>Dear Customer,</b><br></h3>
                     <h4>Thank you for getting your event services at our company. We would like to know how we performed. 
                     Please spare some moments to give us your valuable feedback as it will help us in improving our service.</h4>
                     
@@ -68,7 +66,7 @@ if (!isset($errors)) {
                     <div class="clear"></div> 
                     <hr class="survey-hr">
                     <label>3. Friendliness and courtesy shown to you in our services </label><br><br/>
-                    <div style="color:grey">
+                    <div style="color:black">
                         <span style="float:left">
                         POOR
                         </span>
@@ -118,14 +116,10 @@ if (!isset($errors)) {
                     <input type="radio" name="rating" value="10">
                     <label style="width:100%;"></label>
                     </label>
-                    </span>
-                    
-                    <div class="clear"></div> 
-                    <hr class="survey-hr"> 
-                    <label for="m_3189847521540640526commentText">4. Any Other suggestions:</label><br/><br/>
-                    <textarea cols="75" name="commentText" rows="5" style="100%"></textarea><br>
-                    <br>
-                    <div class="clear"></div> 
+                    </span> 
+                    <label for="m_3189847521540640526commentText">4. Any Other suggestions:</label>
+                    <textarea cols="68" name="commentText" rows="5" style="100%"></textarea>
+                    <div class="clear"></div><br>
                     <input style="background:#43a7d5;color:#fff;padding:12px;border:0" type="submit" value="Submit your review"> 
                     </form>
                     </div>
