@@ -33,15 +33,16 @@ CREATE TABLE `events` (
   `StartDate` varchar(255) NOT NULL,
   `EndDate` varchar(255) NOT NULL,
   `Cost` int(11) NOT NULL,
-  `LocationID` int(11) NOT NULL
+  `LocationID` int(11) NOT NULL,
+  `catererID` int(11) NOT NULL,
+  `decoratorID` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `events`
 --
 
-INSERT INTO `events` (`EventID`, `Title`, `Description`, `StartDate`, `EndDate`, `Cost`, `LocationID`) VALUES
-(1, 'Wedding Anniversary', '1st Anniversary Celebration', '10-Oct-2015', '10-Oct-2016', 25000, 1);
+
 
 --
 -- Indexes for dumped tables
@@ -52,7 +53,9 @@ INSERT INTO `events` (`EventID`, `Title`, `Description`, `StartDate`, `EndDate`,
 --
 ALTER TABLE `events`
   ADD PRIMARY KEY (`EventID`),
-  ADD KEY `LocationID` (`LocationID`);
+  ADD KEY `LocationID` (`LocationID`),
+  ADD KEY `catererID` (`catererID`),
+  ADD KEY `decoratorID` (`decoratorID`);
 
 --
 -- AUTO_INCREMENT for dumped tables
