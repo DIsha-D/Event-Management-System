@@ -1,4 +1,5 @@
-re_once 'functions.php';
+<?php
+require_once 'functions.php';
 require_once 'classes/Location.php';
 require_once 'classes/LocationTableGateway.php';
 require_once 'classes/Connection.php';
