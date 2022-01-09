@@ -17,7 +17,7 @@
                     echo '<li><a href = "index.php">Home</a></li>';
                     echo '<li><a href = "viewLocations.php">Locations</a></li>';
                     echo '<li><a href = "contact.php">Contact Us</a></li>';
-                    echo '<li><a href = "feedback.php">Feedback</a></li>';
+                    echo '<li><a href = "feedback_form.php">Feedback</a></li>';
                     echo '<li class="btnlogout"><a class = "btn btn-default navbar-btn" href = "logout.php">Logout <span class = "glyphicon glyphicon-log-out"></span></a></li>';
                 }  
                 //links non database contents. *if logged out
@@ -25,7 +25,7 @@
                     echo '<li><a href = "index.php">Home</a></li>';
                     echo '<li><a href = "locations2.php">Locations</a></li>';
                     echo '<li><a href = "contact.php">Contact Us</a></li>';
-                    echo '<li><a href = "feedback.php">Feedback</a></li>';
+                    echo '<li><a href = "feedback_form.php">Feedback</a></li>';
                     echo '<button type = "button" class = "btn btn-default navbar-btn" data-toggle = "modal" data-target = "#login">Login <Span class="glyphicon glyphicon-log-in"></span></button>';
                 }
                 ?>
