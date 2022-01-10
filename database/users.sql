@@ -27,6 +27,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `users` (
+  `userID` int(11) NOT NULL,
   `username` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
   `role` varchar(255) NOT NULL
@@ -35,9 +36,9 @@ CREATE TABLE `users` (
 --
 -- Dumping data for table `users`
 --
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`userID`);
 
-INSERT INTO `users` (`username`, `password`, `role`) VALUES
-('test', '1234', 'user');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
