@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+CTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -62,3 +62,4 @@
         <?php require 'utils/footer.php'; ?><!--footer content. file found in utils folder-->
     </body>
 </html>
+
