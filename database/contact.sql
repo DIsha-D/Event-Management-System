@@ -20,18 +20,23 @@ SET time_zone = "+00:00";
 -- Database: `year2project`
 
 CREATE TABLE `contact` (
+  `uid` int(11) not null,
   `userID` int(11) NOT NULL,
-  `email` varchar(255) NOT NULL,
-  `contactNO` varchar(10) NOT NULL,
+  `uemail` varchar(255) NOT NULL,
   `title` varchar(255) NOT NULL,
   `message` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 
-ALTER TABLE `users`
+ALTER TABLE `contact`
   ADD KEY `userID` (`userID`);
 
 
+ALTER TABLE `contact`
+  ADD PRIMARY KEY (`uid`);
+
+  ALTER TABLE `contact`
+  MODIFY `uid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
